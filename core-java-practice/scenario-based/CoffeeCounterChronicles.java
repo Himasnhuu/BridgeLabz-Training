@@ -1,4 +1,4 @@
-package Week_01.scenarioBased;
+package scenariobased;
 import java.util.Scanner;
 
 /*

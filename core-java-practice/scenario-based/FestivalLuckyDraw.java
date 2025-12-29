@@ -80,7 +80,7 @@ public class FestivalLuckyDraw {
             // Decorative separator
             System.out.println("\n--------------------------------------------------------------------------");
 
-            // Final confirmation before closing the lucky draw
+            // confirmation from the owner before closing the lucky draw
             System.out.print("Type exit to close the lucky draw and continue to still open it... : ");
             String choice = sc.nextLine().toLowerCase();
 
@@ -94,7 +94,7 @@ public class FestivalLuckyDraw {
                 System.out.println("----------------------------------------------");
                 break; // Exit the while loop
             }
-            // If user wants to continue playing
+            // If owner wants to continue the lucky draw
             else {
                 System.out.println("\nDraw a number and win exciting gifts!");
             }

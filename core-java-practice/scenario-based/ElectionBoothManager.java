@@ -6,7 +6,7 @@ Design a polling booth system.
 ● Record vote (1, 2, or 3 for candidates).
 ● Loop for multiple voters, exit on special code.*/
 
-package Week_01.scenarioBased;
+package scenariobased;
 import java.util.Scanner;
 
 public class ElectionBoothManager {

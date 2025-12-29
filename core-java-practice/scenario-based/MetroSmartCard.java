@@ -5,7 +5,7 @@ In Delhi Metro, fare varies by distance.
 ● Deduct from smart card balance.
 Loop until balance is exhausted or the user quits.*/
 
-package Week_01.scenarioBased;
+package scenariobased;
 import java.util.Scanner;
 
 public class MetroSmartCard {

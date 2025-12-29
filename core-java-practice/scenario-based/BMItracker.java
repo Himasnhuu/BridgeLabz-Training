@@ -6,7 +6,7 @@ Maya, a fitness coach, wants to record the BMI of her clients.
 ● Print category using if-else: Underweight, Normal, Overweight.
 Use clear variable names and comments to maintain code hygiene.*/
 
-package Week_01.scenarioBased;
+package scenariobased;
 import java.util.Scanner;
 
 public class BMItracker {

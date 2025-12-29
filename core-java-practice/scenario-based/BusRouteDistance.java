@@ -50,7 +50,7 @@ public class BusRouteDistance {
         }
         
         // journey summary when passenger exits
-        System.out.println("===== JOURNEY SUMMARY =====");
+        System.out.println("JOURNEY SUMMARY");
         System.out.println("Exit Stop: " + stops[currentStopIndex]);
         System.out.println("Total Distance Traveled: " + totalDistance + " km");
         System.out.println("Thank you for traveling with us!");
