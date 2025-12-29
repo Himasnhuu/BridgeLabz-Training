@@ -1,111 +1,99 @@
 package scenariobased;
 
-
 public class EmployeeWageComputation {
-	public static void main(String[] args) {
-		
-		System.out.println("WELCOME TO EMPLOYEE WAGE COMPUTATION PROGRAM.\n");
-		
-		System.out.println("--------------------------------------------------------------------");
-		System.out.println("USE CASE 1.");
-		String s = useCase1()==true ? "PRESENT" : "ABSENT";
-		System.out.println("Employee is "+s);
-		System.out.println("-------------------------------------------------------------------");
-		
-		System.out.println("USE CASE 2.");
-		Double d = useCase2();
-		System.out.println("Daily Employee wage is "+d);
-		System.out.println("------------------------------------------------------------------");
-		
-		System.out.println("USE CASE 3.");
-		String s2 = useCase3()==true ? "FULL TIME" : "PART TIME";
-		System.out.println("Employee is "+s2);
-		System.out.println("-------------------------------------------------------------------");
-		
-		System.out.println("USE CASE 4.");
-		double d1 = s2.equals("FULL TIME") ? useCase4(true) : useCase4(false);
-		System.out.println("Employee is "+s2+" and its daily wage is "+d1);
-		System.out.println("-------------------------------------------------------------------");
-		
-		System.out.println("USE CASE 5.");
-		double d2 = useCase5();
-		System.out.println("Monthly wage of the Employee is "+d2);
-		System.out.println("--------------------------------------------------------------------");
-		
-		System.out.println("USE CASE 6.");
-		double d3 = s2.equals("FULL TIME") ? useCase6(true) : useCase6(false);
-		System.out.println("Wages till total working hours or days is reached for a month - Assume 100 hours and 20 days : "+d3);
-		System.out.println("-----------------------------------------------------------------------");
-		
-	}
-	
-	//method to check the absent and present of the employee
-	static boolean useCase1() {
-		return ((int)(Math.random()*2)==0)? false : true ;
-	}
-	
-	//method to calculate daily employee wage
-	static double useCase2() {
-		double dailyWage = 20 * 8;
-		return dailyWage;
-	}
-	
-	//method to add part time employee and its wage
-	static boolean useCase3() {
-		return (int)(Math.random()*2)==0 ? false : true;
-	}
-	
-	//method to calculate wage using switch case statement depending on the type of employment(Part-time or Full-time)
-	static double useCase4(boolean x) {
-		
-		int z = x==true ? 1 : 0;
-		
-		switch (z){
-			
-			case 1:
-				return 20 * 8;
-			
-			case 0:
-				return 20 * 8;
-			
-			default:
-				return 0;
-		}
-	}
-	
-	// method to calculate wages for a month
-	static double useCase5() {
-		return 20*8*20;
-	}
-	
-	//method to calculate wages till condition of total working hours and days 
-	static double useCase6(boolean b) {
-		int totalhours = 0;
-		int x = b==true ? 1 : 0;
-		boolean flag = true;
-		
-		while(flag) {
-			switch (x){
-				case 1:
-					totalhours+=8;
-					break;
-				case 0:
-					totalhours+=8;
-					break;
-				default:
-					totalhours+=0;
-					break;
-					
-			}
-			
-			if(totalhours>=20*8+100) {
-				flag = false;
-			}
-			
-		}
-		
-		return totalhours *20;
-		
-	}
-	
+    public static void main(String[] args) {
+
+        // display welcome message
+        System.out.println("WELCOME TO EMPLOYEE WAGE COMPUTATION PROGRAM.\n");
+
+        System.out.println("-------------------------------------------------------------------");
+
+        // UC2: calculate and display daily wage
+        Double d = useCase2();
+        System.out.println("Daily Employee wage is " + d);
+        System.out.println("------------------------------------------------------------------");
+
+        // UC3 & UC4: determine employment type and calculate wage using switch
+        String s2 = useCase3() == true ? "FULL TIME" : "PART TIME";
+        double d1 = s2.equals("FULL TIME") ? useCase4(true) : useCase4(false);
+        System.out.println("Employee is " + s2 + " and its daily wage is " + d1);
+        System.out.println("-------------------------------------------------------------------");
+
+        // UC6: calculate wages till condition of 20 days or 100 hours is met
+        int totalDays = 0;
+        int totalHours = 0;
+        int i = 1;
+        while(totalDays < 20 && totalHours <= 100) {
+            // UC1: check employee attendance
+            String isPresent = useCase1() == true ? "PRESENT" : "ABSENT";
+            System.out.print("Day " + i + " Employee is " + isPresent);
+
+            if(isPresent.equals("PRESENT")) {
+                totalHours += useCase6();
+                totalDays += 1;
+                System.out.print(", Working hours = " + 8);
+                System.out.println();
+            } else {
+                totalDays += 1;
+                System.out.println();
+            }
+
+            i++;
+
+        }
+        System.out.println("-------------------------------------------------------------------");
+        
+        // UC5: calculate monthly wage based on total hours worked
+        Double mWage = useCase5(totalHours);
+        System.out.print("\nTotal Working hours of the Employee : " + totalHours);
+        System.out.print("\nMonthly Wage of the Employee : " + mWage);
+        System.out.println("\n\n-------------------------------------------------------------------");
+
+    }
+
+    // UC1: check employee attendance randomly
+    static boolean useCase1() {
+        return ((int)(Math.random() * 2) == 0) ? false : true;
+    }
+
+    // UC2: calculate daily wage (wage per hour * full day hours)
+    static double useCase2() {
+        double dailyWage = 20 * 8;
+        return dailyWage;
+    }
+
+    // UC3: randomly determine full-time or part-time status
+    static boolean useCase3() {
+        return (int)(Math.random() * 2) == 0 ? false : true;
+    }
+
+    // UC4: calculate wage using switch case based on employment type
+    static double useCase4(boolean x) {
+
+        // convert boolean to integer for switch case
+        int z = x == true ? 1 : 0;
+
+        switch (z) {
+
+            case 1:
+                return 20 * 8; // full time wage
+
+            case 0:
+                return 20 * 8; // part time wage
+
+            default:
+                return 0;
+        }
+    }
+
+    // UC5: calculate monthly wage based on total hours worked
+    static double useCase5(int h) {
+        return 20 * h;
+    }
+
+    // UC6: return working hours per day
+    static int useCase6() {
+        return 8;
+    }
+
 }
