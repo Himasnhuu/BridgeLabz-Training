@@ -54,71 +54,8 @@ BridgeLabz-Training (main repository)
 │   └── scenario-based
 │
 └── Branch: reviews (upcoming)
+
 ```
-
----
-
-## Learning Progress Summary
-
-### Core Java Practice (Current Branch)
-
-#### Focus Areas:
-- Java fundamentals and control flow
-- Methods (static and instance)
-- Arrays (1D and 2D) and String manipulation
-- Scenario-based real-world problems
-- Number utilities and mathematical operations
-
----
-
-## Key Programs Completed
-
-### Scenario-Based:
-- **Coffee Counter Chronicles** - Billing system with GST
-- **BMI Tracker** - Health category classification
-- **Election Booth Manager** - Voting system
-- **Metro Smart Card** - Fare calculation
-- **Festival Lucky Draw** - Divisibility checks
-
-### Java Methods & Utilities:
-- **Unit converters** - Distance, temperature, weight, volume
-- **Trigonometric and wind chill calculators**
-- **Number checkers** - Prime, palindrome, Armstrong, Harshad, etc.
-- **Factor operations and OTP generators**
-- **Quadratic equation solver**
-
-### Advanced Programs:
-- **Calendar display** - Gregorian algorithm
-- **Collinear points checker** - Slope & area methods
-- **Euclidean distance calculator**
-- **Employee bonus calculator**
-
-### Arrays & String Manipulation:
-- **Array conversions** - 2D to 1D transformations
-- **Student grade systems** - Multiple implementations
-- **Digit frequency analyzers**
-- **FizzBuzz variations**
-- **Character frequency counters**
-- **Palindrome and anagram checkers**
-- **Rock-Paper-Scissor game**
-- **Deck of Cards generator**
-
-### Control Flow Programs:
-- **Loop variations** - For, while implementations
-- **Number operations** - Factorial, power, sum of naturals
-- **Pattern programs** - Multiplication tables, countdown
-- **Number validators** - Leap year, abundant, Harshad
-- **Calculators** - Basic arithmetic with validation
-
-### Programming Elements:
-- **Basic operations** - Addition, average, area calculations
-- **Conversions** - Temperature, distance, volume
-- **Financial calculators** - Profit/loss, discount, simple interest
-- **Geometric formulas** - Circle, triangle, rectangle, cylinder
-
-### LeetCode Practice:
-- **Pascal's Triangle**
-- **Maximize Happiness of Selected Children**
 
 ---
 
@@ -136,9 +73,9 @@ BridgeLabz-Training (main repository)
 
 ## Current Status
 
-**Completed:** Core Java fundamentals, control flow, methods, arrays, strings and utility programs
+**Completed:** Core Java fundamentals, control flow, methods, arrays, strings, utility programs, Date–Time API practice, and multiple scenario‑based applications.
 
-**Next Steps:** Move to OOP concepts (encapsulation, inheritance, polymorphism) in separate branch
+**Next Steps:** Move to OOP concepts (encapsulation, inheritance, polymorphism) and start organizing programs into classes and objects in the `oops-practice` branch.
 
 ---
 
@@ -149,6 +86,34 @@ This repository serves as a complete audit trail of my learning journey, showcas
 - Progressive skill development from basics to advanced concepts
 - Real-world problem-solving abilities
 - Clean, documented, and maintainable code
+- Consistent use of modular, testable Java methods
 
 ---
 
+## Learning Progress Summary
+
+### Core Java Practice (Current Branch)
+
+#### Focus Areas:
+- Java fundamentals and control flow
+- Methods (static and instance)
+- Arrays (1D and 2D) and String manipulation
+- Scenario-based real-world problems
+- Number utilities and mathematical operations
+
+---
+
+### Week 1: Getting Started with Java Basics
+
+- **20-Dec-2025 (Saturday):** Studied Java fundamentals and variables. Solved elementary problems.
+- **21-Dec-2025 (Sunday):** Continued with control flow. Practiced loops and conditionals.
+- **22-Dec-2025 (Monday):** Solved and submitted basic practice problems.
+- **23-Dec-2025 (Tuesday):** Solved practice problems set.
+- **24-Dec-2025 (Wednesday):** Completed and submitted array and method problems.
+- **25-Dec-2025 (Thursday):** Methods & String Manipulation problems solved.
+- **26-Dec-2025 (Friday):** Number Validators and calculators completed.
+- **27-Dec-2025 (Saturday):** Scenario-based Problems implemented.
+- **28-Dec-2025 (Sunday):** Works with Java built-in Date and time.
+- **29-Dec-2025 (Monday):** Completed Employee Wages Scenario based problem and also leetcode question.
+
+---
