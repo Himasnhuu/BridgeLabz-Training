@@ -73,9 +73,9 @@ BridgeLabz-Training (main repository)
 
 ## Current Status
 
-**Completed:** Core Java fundamentals, control flow, methods, arrays, strings, utility programs, Date–Time API practice, and multiple scenario‑based applications.
+**Completed:** Core Java fundamentals (Week 1) and OOP basics with Classes & Objects (Week 2 - Day 1).
 
-**Next Steps:** Move to OOP concepts (encapsulation, inheritance, polymorphism) and start organizing programs into classes and objects in the `oops-practice` branch.
+**Next Steps:** Continue with OOP concepts - Encapsulation, Constructors, Inheritance, and Polymorphism.
 
 ---
 
@@ -115,5 +115,11 @@ This repository serves as a complete audit trail of my learning journey, showcas
 - **27-Dec-2025 (Saturday):** Scenario-based Problems implemented.
 - **28-Dec-2025 (Sunday):** Works with Java built-in Date and time.
 - **29-Dec-2025 (Monday):** Completed Employee Wages Scenario based problem and also leetcode question.
+
+---
+
+### Week 2: Object-Oriented Programming (OOPs)
+
+- **30-Dec-2025 (Tuesday):** Started OOP concepts - Classes and Objects. Completed Snake & Ladder game (UC1-UC7) with single and two-player modes. Solved basic OOPs practice programs.
 
 ---
