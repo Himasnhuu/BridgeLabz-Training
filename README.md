@@ -92,7 +92,7 @@ This repository serves as a complete audit trail of my learning journey, showcas
 
 ## Learning Progress Summary
 
-### Core Java Practice (Current Branch)
+### Core-Java-Practice (Branch)
 
 #### Focus Areas:
 - Java fundamentals and control flow
@@ -100,6 +100,14 @@ This repository serves as a complete audit trail of my learning journey, showcas
 - Arrays (1D and 2D) and String manipulation
 - Scenario-based real-world problems
 - Number utilities and mathematical operations
+
+---
+
+### oops-practice (current Branch)
+
+#### Focus Areas:
+- Classes and Objects (real-world modeling)
+- Constructors (default, parameterized, and object initialization)
 
 ---
 
@@ -121,5 +129,6 @@ This repository serves as a complete audit trail of my learning journey, showcas
 ### Week 2: Object-Oriented Programming (OOPs)
 
 - **30-Dec-2025 (Tuesday):** Started OOP concepts - Classes and Objects. Completed Snake & Ladder game (UC1-UC7) with single and two-player modes. Solved basic OOPs practice programs.
+- **31-Dec-2025 (Wednesday):** Developed a clear understanding of safe Git workflows, including proper branch management, committing practices, and repository handling techniques to avoid data loss and merge conflicts, along with gaining conceptual and practical knowledge of constructors in Java for object initialization and class design.
 
 ---
