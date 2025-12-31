@@ -6,7 +6,7 @@ public class Circle {
     // attribute
     double radius;
     
-    // method to calculate area
+    // method to calculate area of a Circle
     double calculateArea() {
         return Math.PI * radius * radius;
     }
