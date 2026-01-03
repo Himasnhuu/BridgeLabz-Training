@@ -33,7 +33,7 @@ This repository tracks my daily learning progress at BridgeLabz, documenting Jav
 ## Repository Layout
 
 ```
-BridgeLabz-Training (main repository)
+BridgeLabz-Training
 │
 ├── Branch: core-java-practice
 │   ├── gcr-codebase
@@ -47,13 +47,17 @@ BridgeLabz-Training (main repository)
 │
 ├── Branch: oops-practice
 │   ├── gcr-codebase
+|   |   ├── classes-and-objects
+|   |   ├── staticFinal
 │   │   ├── encapsulation
 │   │   ├── inheritance
-│   │   └── polymorphism
+│   │   ├── polymorphism
+│   │   └── Object-Oriented-Design
 │   ├── leet-code-codebase
 │   └── scenario-based
 │
-└── Branch: reviews (upcoming)
+└── Branch: reviews
+
 
 ```
 
@@ -73,9 +77,9 @@ BridgeLabz-Training (main repository)
 
 ## Current Status
 
-**Completed:** Core Java fundamentals (Week 1) and OOP basics with Classes & Objects (Week 2 - Day 1).
+**Completed:** Core Java fundamentals (Week 1) and OOP concepts including Classes & Objects, Constructors, Static/Non-static methods, Access Modifiers, Abstract classes & Interfaces, Relationships (Association, Aggregation, Composition), UML diagrams, and Inheritance patterns (Week 2).
 
-**Next Steps:** Continue with OOP concepts - Encapsulation, Constructors, Inheritance, and Polymorphism.
+**Next Steps:** Continue with advanced OOP topics - Polymorphism, Exception Handling, and Collections Framework.
 
 ---
 
@@ -103,11 +107,17 @@ This repository serves as a complete audit trail of my learning journey, showcas
 
 ---
 
-### oops-practice (current Branch)
+### oops-practice (Current Branch)
 
 #### Focus Areas:
 - Classes and Objects (real-world modeling)
 - Constructors (default, parameterized, and object initialization)
+- Static/Non-static methods and blocks
+- Access modifiers (private, default, protected, public)
+- Abstract classes and interfaces
+- Association, Aggregation, and Composition relationships
+- UML diagrams (class, object, sequence)
+- Inheritance patterns (single, multilevel, hierarchical, hybrid)
 
 ---
 
@@ -130,5 +140,8 @@ This repository serves as a complete audit trail of my learning journey, showcas
 
 - **30-Dec-2025 (Tuesday):** Started OOP concepts - Classes and Objects. Completed Snake & Ladder game (UC1-UC7) with single and two-player modes. Solved basic OOPs practice programs.
 - **31-Dec-2025 (Wednesday):** Developed a clear understanding of safe Git workflows, including proper branch management, committing practices, and repository handling techniques to avoid data loss and merge conflicts, along with gaining conceptual and practical knowledge of constructors in Java for object initialization and class design.
+- **01-Jan-2026 (Thursday):** Studied static vs non-static methods and blocks. Learned access modifiers (private, default, protected, public). Implemented abstract classes and interfaces with method overriding and hiding concepts.
+- **02-Jan-2026 (Friday):** Implemented association, aggregation, and composition relationships. Created UML diagrams. Built class, object, and sequence diagrams.
+- **03-Jan-2026 (Saturday):** Practiced inheritance hierarchies. Implemented single, multilevel, hierarchical, and hybrid inheritance patterns.
 
 ---
