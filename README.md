@@ -143,5 +143,7 @@ This repository serves as a complete audit trail of my learning journey, showcas
 - **01-Jan-2026 (Thursday):** Studied static vs non-static methods and blocks. Learned access modifiers (private, default, protected, public). Implemented abstract classes and interfaces with method overriding and hiding concepts.
 - **02-Jan-2026 (Friday):** Implemented association, aggregation, and composition relationships. Created UML diagrams. Built class, object, and sequence diagrams.
 - **03-Jan-2026 (Saturday):** Practiced inheritance hierarchies. Implemented single, multilevel, hierarchical, and hybrid inheritance patterns.
+- **05-Jan-2026 (Monday):** Built multiple OOP-based mini-systems: E-Commerce Platform, Vehicle Rental System, Banking System, and Library Management System, focusing on abstraction, interfaces, and clean encapsulation for domain models.
+- **06-Jan-2026 (Tuesday):** Worked on scenario-based applications using strings, collections, and custom exceptions including an Invoice Generator for freelancers, Phone Contact Organizer, Online Food Delivery System, Hospital Patient Management, and Ride-Hailing Application. Designed additional simple systems for quizzes, student reports, and library book checkout using lists, arrays, and custom validation logic.
 
 ---
