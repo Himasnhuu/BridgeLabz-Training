@@ -152,7 +152,12 @@ This repository serves as a complete audit trail of my learning journey, showcas
 - **07-Jan-2026 (Wednesday):** Implemented Cab Booking/Ride Management System with CRUD operations, polymorphism (peak vs normal pricing), multithreading (synchronized transactions), and exception handling. Built Online Banking System with account inheritance (Savings/Current), interface abstraction, fund transfers, transaction history, and interest calculations.
 - **08-Jan-2026 (Thursday):** Started Data Structures & Algorithms (DSA). Learned Singly Linked List fundamentals including node structure, pointer concepts, and operations. Implemented Student Record Management System with add (at beginning/end/position), delete by roll number, search, update grade, and display all operations.
 - **09-Jan-2026 (Friday):** Implemented Hospital Patient Management System demonstrating OOP pillars: Encapsulation (Patient/Doctor/Bill private fields), Abstraction (IPayable interface), Inheritance (InPatient/OutPatient extends Patient), Polymorphism (displayInfo/calculateBill overridden). Practiced array sorting without modifying original array using clone(). Learned InPatient vs OutPatient medical concepts.
-- **12-Jan-2026 (Monday):** Prepared comprehensively for OOP Viva - covered all 4 pillars with 5+ real-world examples each, access modifiers, upcasting/downcasting, static vs non-static, final keyword. Implemented Hotel Reservation System with Inheritance (DeluxeRoom/StandardRoom), Polymorphism (SeasonalPricing), Exception Handling (RoomNotAvailableException), CRUD operations.
-- **13-Jan-2026 (Tuesday):** Simplified Hotel Management System to exact requirements. Practiced line-by-line code explanations. Consolidated OOP viva preparation with cheat sheets and execution flow analysis.
+
+---
+
+### Week 3: Data Structures and Algorithms
+
+- **12-Jan-2026 (Monday):** Prepared comprehensively for OOP Viva - covered all 4 pillars with 5+ real-world examples each, access modifiers, upcasting/downcasting, static vs non-static, final keyword. Implemented Hotel Reservation System with Inheritance (DeluxeRoom/StandardRoom), Polymorphism (SeasonalPricing), Exception Handling (RoomNotAvailableException), CRUD operations. Practiced Linked List questions and operations.
+- **13-Jan-2026 (Tuesday):** Simplified Hotel Management System to exact requirements. Practiced line-by-line code explanations. Consolidated OOP viva preparation with cheat sheets and execution flow analysis. Troubleshot and resolved Git index.lock issue, practiced Git conflict resolution and safe repository management workflows. Reviewed Git version control best practices including handling locked index files, restoring deleted files, and branch switching workflows. Maintained repository hygiene and documented learning progress.
 
 ---
