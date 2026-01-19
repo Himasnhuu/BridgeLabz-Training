@@ -47,18 +47,23 @@ BridgeLabz-Training
 │
 ├── Branch: oops-practice
 │   ├── gcr-codebase
-|   |   ├── classes-and-objects
-|   |   ├── staticFinal
-│   │   ├── encapsulation
+│   │   ├── Encapsulation-Polymorphism-Interface
+│   │   ├── Object-Oriented-Design
+│   │   ├── addressbookproblem
+│   │   ├── classes-and-objects
+│   │   ├── constructor
 │   │   ├── inheritance
-│   │   ├── polymorphism
-│   │   └── Object-Oriented-Design
+│   │   └── staticFinal
 │   ├── leet-code-codebase
 │   └── scenario-based
 │
 ├── Branch: dsa-practice
 │   └── gcr-codebase
-│       └── linkedlist
+│       ├── algorithmruntimeanalysis
+│       ├── binarystrinbuilder
+│       ├── linked-list
+│       ├── sorting
+│       └── stackandqueue
 │
 └── Branch: reviews
 
@@ -159,5 +164,15 @@ This repository serves as a complete audit trail of my learning journey, showcas
 
 - **12-Jan-2026 (Monday):** Prepared comprehensively for OOP Viva - covered all 4 pillars with 5+ real-world examples each, access modifiers, upcasting/downcasting, static vs non-static, final keyword. Implemented Hotel Reservation System with Inheritance (DeluxeRoom/StandardRoom), Polymorphism (SeasonalPricing), Exception Handling (RoomNotAvailableException), CRUD operations. Practiced Linked List questions and operations.
 - **13-Jan-2026 (Tuesday):** Simplified Hotel Management System to exact requirements. Practiced line-by-line code explanations. Consolidated OOP viva preparation with cheat sheets and execution flow analysis. Troubleshot and resolved Git index.lock issue, practiced Git conflict resolution and safe repository management workflows. Reviewed Git version control best practices including handling locked index files, restoring deleted files, and branch switching workflows. Maintained repository hygiene and documented learning progress.
+- **14-Jan-2026 (Wednesday):** Implemented Stack Data Structure from scratch with core operations: push, pop, peek, isEmpty, and isFull. Studied stack overflow and underflow conditions in depth. Built array-based stack implementation with capacity management and comprehensive bounds checking for safe memory operations.
+- **15-Jan-2026 (Thursday):** Developed Doubly Linked List-based Movie Management System with bidirectional traversal capabilities. Implemented features: add movie (at beginning/end/position), remove by title, search by director/rating, display forward (head→tail) and reverse (tail→head using prev pointers), and update rating functionality. Practiced prev/next pointer manipulation and edge case handling for robust linked list operations.
+- **16-Jan-2026 (Friday):** prepared review of doubly linked list concepts with detailed line-by-line code explanations. Analyzed node structure with dual pointers (prev/next), pointer rewiring techniques during insertion/deletion, and traversal logic for both forward and backward directions. Prepared in-depth Core Java and OOP concepts for weekly technical review session.
+- **17-Jan-2026 (Saturday):** Participated in weekly technical review with mentor viva and coding assessment. Solved scenario-based Linked List problem with custom exception handling as assigned during review. Demonstrated understanding of exception handling integration with data structures and scenario-driven problem-solving skills.
+
+---
+
+### Week 4: Java Collections Framework & Stream API
+
+- **19-Jan-2026 (Monday):** Advanced DSA concepts with focus on HashMap data structure. Implemented HashMap from scratch including hash function, collision handling, and bucket management. Practiced HashMap operations (put, get, remove, containsKey) with real-world use cases. Conducted detailed line-by-line code analysis to deeply understand internal working of hash-based data structures, hash collision resolution, and time complexity optimization.
 
 ---
