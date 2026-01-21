@@ -58,17 +58,89 @@ BridgeLabz-Training
 │   └── scenario-based
 │
 ├── Branch: dsa-practice
+│   ├── gcr-codebase
+│   │   ├── algorithmruntimeanalysis
+│   │   ├── binarystrinbuilder
+│   │   ├── linked-list
+│   │   ├── sorting
+│   │   └── stackandqueue
+│   ├── leet-code-codebase
+│   └── scenario-based
+│
+├── Branch: collections-practice
 │   └── gcr-codebase
-│       ├── algorithmruntimeanalysis
-│       ├── binarystrinbuilder
-│       ├── linked-list
-│       ├── sorting
-│       └── stackandqueue
+│       └── genric
 │
 └── Branch: reviews
 
 
 ```
+
+---
+
+## Scenario-Based Problems Implemented
+
+### Core Java Scenario-Based Problems:
+**Repository:** https://github.com/Himasnhuu/BridgeLabz-Training/tree/core-java-practice/core-java-practice/scenario-based
+
+- BMICalculator - Calculate Body Mass Index
+- BusRootDistanceTracker - Track bus root distance
+- CoffeeCounter - Count coffee transactions
+- DigitalWatch - Digital watch functionality
+- DiwaliLuckyDraw - Diwali lucky draw system
+- ElectionManager - Election management
+- EmployeeWageComputation - Employee wage calculations
+- LibraryReminderApp - Library reminder system
+- LineComparisonComputation - Line comparison logic
+- MetroCard - Metro card system
+- MovieTicketing - Movie ticketing system
+- SandeepFitness - Fitness tracking app
+- SnakeAndLadder - Snake and ladder game 
+
+### OOP Scenario-Based Problems:
+**Repository:** https://github.com/Himasnhuu/BridgeLabz-Training/tree/oops-practice/oops-practice/scenario-based
+
+- FlightBookingSystem - Flight booking and management
+- AddressBookProblem - Address Book and Contact Management System
+- BankingSystem - Banking operations and account management
+- DigitalWalletSystem - Digital wallet transactions
+- EcommerceplatForm - E-commerce platform
+- HospitalManagement - Hospital patient and doctor management
+- HotelReservationSystem - Hotel room reservations
+- InventoryManagement - Inventory tracking and management
+- OnlineExaminationSystem - Online exam platform
+- OnlineVotingSystem - Online voting system
+- RDManagementSystem - Research & Development management
+- StudentCourseRegistration - Student course registration
+- TrafficManager - Traffic management system
+- VehicleRentalSystem - Vehicle rental operations
+- BankingApp - Banking application
+- CafetariaMenuApp - Cafeteria menu management
+- InvoiceGenerator - Invoice generation
+- LibraryManagementSystem - Library management
+- LibraryManagementSystemException - Exception handling
+- MathUtilityLibrary - Math utility functions
+- ParagraphAnalyzer - Paragraph text analysis
+- PhoneContactOrganizer - Contact organization
+- ResultProcessor - Result processing
+- SentenceFormatter - Sentence formatting
+- StudentCalculator - Student grade calculations
+- StudentReportGenerator - Report generation
+- StudentScoreComparator - Score comparison
+- StudentScores - Student score management
+- TemperatureAnalysis - Temperature data analysis
+
+### DSA Scenario-Based Problems:
+**Repository:** https://github.com/Himasnhuu/BridgeLabz-Training/tree/dsa-practice/scenario-based
+
+- BankAccountHierarchy - Bank account management with hierarchy
+- Bookshelf - Bookshelf organization system
+- BrowserBuddy - Browser bookmark management
+- EmployeeRole - Employee role management
+- ExamProctor - Exam proctoring system
+- MovieScheduler - Movie scheduling application
+- ParcelTracker - Parcel tracking system
+- TrafficManager - Traffic management system
 
 ---
 
@@ -86,26 +158,29 @@ BridgeLabz-Training
 
 ## Current Status
 
-**Completed:** Core Java fundamentals (Week 1) and OOP concepts including Classes & Objects, Constructors, Static/Non-static methods, Access Modifiers, Abstract classes & Interfaces, Relationships (Association, Aggregation, Composition), UML diagrams, and Inheritance patterns (Week 2).
+**Completed:** Core Java fundamentals, OOP concepts including Classes & Objects, Constructors, Static/Non-static methods, Access Modifiers, Abstract classes & Interfaces, Relationships (Association, Aggregation, Composition), UML diagrams, and Inheritance patterns. DSA concepts including Linked Lists (Singly & Doubly), Stack, and HashMap implementation from scratch. Started Java Collections Framework and Generics.
 
-**Next Steps:** Continue with advanced OOP topics - Polymorphism, Exception Handling, and Collections Framework.
+**Next Steps:** Deep dive into Collections Framework (ArrayList, LinkedList, HashSet, TreeSet, HashMap), Stream API for functional programming, advanced exception handling patterns, and multithreading concepts. Continue building complex scenario-based applications integrating all learned concepts.
 
 ---
 
 ## Progress Tracking
 
 This repository serves as a complete audit trail of my learning journey, showcasing:
-- Daily commitment to coding practice
-- Progressive skill development from basics to advanced concepts
-- Real-world problem-solving abilities
-- Clean, documented, and maintainable code
+- Daily commitment to coding practice across 4+ weeks
+- Progressive skill development from Core Java fundamentals to advanced DSA and Collections
+- Real-world problem-solving with 50+ scenario-based applications
+- Clean, documented, and maintainable code following industry best practices
 - Consistent use of modular, testable Java methods
+- Multiple branches tracking different learning phases (core-java, OOPs, DSA, collections)
+- Weekly technical reviews and mentor viva sessions
+- Integration of concepts through practical implementations
 
 ---
 
 ## Learning Progress Summary
 
-### Core-Java-Practice (Branch)
+### Core-Java-Practice (Branch) - Completed
 
 #### Focus Areas:
 - Java fundamentals and control flow
@@ -116,7 +191,7 @@ This repository serves as a complete audit trail of my learning journey, showcas
 
 ---
 
-### oops-practice (Current Branch)
+### oops-practice (Branch) - Completed
 
 #### Focus Areas:
 - Classes and Objects (real-world modeling)
@@ -127,6 +202,25 @@ This repository serves as a complete audit trail of my learning journey, showcas
 - Association, Aggregation, and Composition relationships
 - UML diagrams (class, object, sequence)
 - Inheritance patterns (single, multilevel, hierarchical, hybrid)
+
+---
+
+### dsa-practice (Branch) - In Progress
+
+#### Focus Areas:
+- Linked Lists (Singly, Doubly and Circular)
+- Stack (array-based implementation)
+- Queue and sorting algorithms
+- Algorithm runtime analysis
+- Binary search and string builders
+
+---
+
+### collections-practice (Current Branch)
+
+#### Focus Areas:
+- Java Generics and type safety
+- Collections Framework (ArrayList, LinkedList, HashSet, TreeSet, HashMap)
 
 ---
 
@@ -162,17 +256,19 @@ This repository serves as a complete audit trail of my learning journey, showcas
 
 ### Week 3: Data Structures and Algorithms
 
-- **12-Jan-2026 (Monday):** Prepared comprehensively for OOP Viva - covered all 4 pillars with 5+ real-world examples each, access modifiers, upcasting/downcasting, static vs non-static, final keyword. Implemented Hotel Reservation System with Inheritance (DeluxeRoom/StandardRoom), Polymorphism (SeasonalPricing), Exception Handling (RoomNotAvailableException), CRUD operations. Practiced Linked List questions and operations.
-- **13-Jan-2026 (Tuesday):** Simplified Hotel Management System to exact requirements. Practiced line-by-line code explanations. Consolidated OOP viva preparation with cheat sheets and execution flow analysis. Troubleshot and resolved Git index.lock issue, practiced Git conflict resolution and safe repository management workflows. Reviewed Git version control best practices including handling locked index files, restoring deleted files, and branch switching workflows. Maintained repository hygiene and documented learning progress.
-- **14-Jan-2026 (Wednesday):** Implemented Stack Data Structure from scratch with core operations: push, pop, peek, isEmpty, and isFull. Studied stack overflow and underflow conditions in depth. Built array-based stack implementation with capacity management and comprehensive bounds checking for safe memory operations.
-- **15-Jan-2026 (Thursday):** Developed Doubly Linked List-based Movie Management System with bidirectional traversal capabilities. Implemented features: add movie (at beginning/end/position), remove by title, search by director/rating, display forward (head→tail) and reverse (tail→head using prev pointers), and update rating functionality. Practiced prev/next pointer manipulation and edge case handling for robust linked list operations.
-- **16-Jan-2026 (Friday):** prepared review of doubly linked list concepts with detailed line-by-line code explanations. Analyzed node structure with dual pointers (prev/next), pointer rewiring techniques during insertion/deletion, and traversal logic for both forward and backward directions. Prepared in-depth Core Java and OOP concepts for weekly technical review session.
-- **17-Jan-2026 (Saturday):** Participated in weekly technical review with mentor viva and coding assessment. Solved scenario-based Linked List problem with custom exception handling as assigned during review. Demonstrated understanding of exception handling integration with data structures and scenario-driven problem-solving skills.
+- **12-Jan-2026 (Monday):** Prepared for OOP Viva covering 4 pillars with real-world examples. Implemented Hotel Reservation System with inheritance, polymorphism, and exception handling. Practiced Linked List operations.
+- **13-Jan-2026 (Tuesday):** Refined Hotel Management System. Consolidated OOP viva preparation. Resolved Git index.lock issue and practiced conflict resolution workflows.
+- **14-Jan-2026 (Wednesday):** Implemented Stack Data Structure with push, pop operations. Studied stack overflow/underflow conditions and array-based implementation.
+- **15-Jan-2026 (Thursday):** Built Doubly Linked List Movie Management System with bidirectional traversal, CRUD operations, and search functionality.
+- **16-Jan-2026 (Friday):** Reviewed doubly linked list concepts with code explanations. Prepared Core Java and OOP concepts for technical review.
+- **17-Jan-2026 (Saturday):** Weekly technical review with mentor viva. Solved scenario-based Linked List problem with custom exception handling.
 
 ---
 
-### Week 4: Java Collections Framework & Stream API
+### Week 4: Java Collections & Streams 
 
-- **19-Jan-2026 (Monday):** Advanced DSA concepts with focus on HashMap data structure. Implemented HashMap from scratch including hash function, collision handling, and bucket management. Practiced HashMap operations (put, get, remove, containsKey) with real-world use cases. Conducted detailed line-by-line code analysis to deeply understand internal working of hash-based data structures, hash collision resolution, and time complexity optimization.
+- **19-Jan-2026 (Monday):** Implemented HashMap from scratch with hash function, collision handling, and bucket management. Practiced HashMap operations and analyzed hash-based data structures.
+- **20-Jan-2026 (Tuesday):** Studied Java Generics concepts and practical implementation. Practiced LeetCode problems.
+- **21-Jan-2026 (Wednesday):** Studied Collections Framework overview, hierarchy, and interface implementations (List, Set, Queue, Deque, Map). Practiced List operations (reverse, frequency, rotate, duplicates), Set operations (union, intersection, subsets), Queue operations (reverse, PriorityQueue), and Map operations (frequency counter, merge maps).
 
 ---
