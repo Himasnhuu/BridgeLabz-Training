@@ -68,8 +68,13 @@ BridgeLabz-Training
 │   └── scenario-based
 │
 ├── Branch: collections-practice
-│   └── gcr-codebase
-│       └── genric
+│   ├── gcr-codebase
+│   │   ├── collections
+│   │   ├── exceptions
+│   │   ├── genric
+│   │   └── javastreams
+│   ├── leet-code-codebase
+│   └── scenario-based
 │
 └── Branch: reviews
 
@@ -142,6 +147,15 @@ BridgeLabz-Training
 - ParcelTracker - Parcel tracking system
 - TrafficManager - Traffic management system
 
+### Collections Scenario-Based Problems:
+**Repository:** https://github.com/Himasnhuu/BridgeLabz-Training/tree/collections-practice/collections-practice/scenario-based
+
+- RestaurantTableReservationSystem - Table reservation with Map, List, and exception handling
+- FileBackupScheduler - Priority-based file backup using PriorityQueue and Comparable
+- EduResults - Rank sheet generator with Merge Sort for large datasets
+- SmartCheckout - Supermarket billing system using Queue and HashMap
+- ParcelTracker - Delivery chain management with Singly Linked List
+
 ---
 
 ## Learning Approach
@@ -180,7 +194,7 @@ This repository serves as a complete audit trail of my learning journey, showcas
 
 ## Learning Progress Summary
 
-### Core-Java-Practice (Branch) - Completed
+### Core-Java-Practice (Branch)
 
 #### Focus Areas:
 - Java fundamentals and control flow
@@ -191,7 +205,7 @@ This repository serves as a complete audit trail of my learning journey, showcas
 
 ---
 
-### oops-practice (Branch) - Completed
+### oops-practice (Branch) 
 
 #### Focus Areas:
 - Classes and Objects (real-world modeling)
@@ -205,7 +219,7 @@ This repository serves as a complete audit trail of my learning journey, showcas
 
 ---
 
-### dsa-practice (Branch) - In Progress
+### dsa-practice (Branch)
 
 #### Focus Areas:
 - Linked Lists (Singly, Doubly and Circular)
@@ -270,5 +284,9 @@ This repository serves as a complete audit trail of my learning journey, showcas
 - **19-Jan-2026 (Monday):** Implemented HashMap from scratch with hash function, collision handling, and bucket management. Practiced HashMap operations and analyzed hash-based data structures.
 - **20-Jan-2026 (Tuesday):** Studied Java Generics concepts and practical implementation. Practiced LeetCode problems.
 - **21-Jan-2026 (Wednesday):** Studied Collections Framework overview, hierarchy, and interface implementations (List, Set, Queue, Deque, Map). Practiced List operations (reverse, frequency, rotate, duplicates), Set operations (union, intersection, subsets), Queue operations (reverse, PriorityQueue), and Map operations (frequency counter, merge maps).
+- **22-Jan-2026 (Thursday):** Implemented AddressBook System using ArrayList for contact management, HashMap for efficient lookups, multiple classes (Contact, AddressBook, AddressBookMain), and applied OOP concepts including encapsulation, abstraction, and proper class design.
+- **23-Jan-2026 (Friday):** Studied Java I/O Streams: File Streams, Object Streams, ByteArray Streams, Buffered Streams, and Reader/Writer classes. Practiced resource management with try-with-resources and exception handling.
+- **27-Jan-2026 (Tuesday):** Studied Exception Handling in Java: Checked vs Unchecked Exceptions, Custom Exceptions, try-catch blocks, try-catch-finally blocks, try-with-resources statement, throws clause, throw statement, and creating custom exceptions by extending Exception class with custom constructors.
+- **28-Jan-2026 (Wednesday):** Learned basics of Java Streams and Lambda expressions. Solved string manipulation problem involving ASCII value filtering, character removal based on even ASCII codes, string reversal, and case conversion at even indices.
 
 ---
