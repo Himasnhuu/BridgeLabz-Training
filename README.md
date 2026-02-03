@@ -76,6 +76,11 @@ BridgeLabz-Training
 │   ├── leet-code-codebase
 │   └── scenario-based
 │
+├── Branch: IO-Programming
+│   ├── gcr-codebase
+│   │   ├── csv-data-handling
+│   │   └── json-data
+│
 └── Branch: reviews
 
 
@@ -170,14 +175,6 @@ BridgeLabz-Training
 
 ---
 
-## Current Status
-
-**Completed:** Core Java fundamentals, OOP concepts including Classes & Objects, Constructors, Static/Non-static methods, Access Modifiers, Abstract classes & Interfaces, Relationships (Association, Aggregation, Composition), UML diagrams, and Inheritance patterns. DSA concepts including Linked Lists (Singly & Doubly), Stack, and HashMap implementation from scratch. Started Java Collections Framework and Generics.
-
-**Next Steps:** Deep dive into Collections Framework (ArrayList, LinkedList, HashSet, TreeSet, HashMap), Stream API for functional programming, advanced exception handling patterns, and multithreading concepts. Continue building complex scenario-based applications integrating all learned concepts.
-
----
-
 ## Progress Tracking
 
 This repository serves as a complete audit trail of my learning journey, showcasing:
@@ -194,7 +191,7 @@ This repository serves as a complete audit trail of my learning journey, showcas
 
 ## Learning Progress Summary
 
-### Core-Java-Practice (Branch)
+### Core-Java-Practice
 
 #### Focus Areas:
 - Java fundamentals and control flow
@@ -205,7 +202,7 @@ This repository serves as a complete audit trail of my learning journey, showcas
 
 ---
 
-### oops-practice (Branch) 
+### oops-practice 
 
 #### Focus Areas:
 - Classes and Objects (real-world modeling)
@@ -219,7 +216,7 @@ This repository serves as a complete audit trail of my learning journey, showcas
 
 ---
 
-### dsa-practice (Branch)
+### dsa-practice 
 
 #### Focus Areas:
 - Linked Lists (Singly, Doubly and Circular)
@@ -230,11 +227,33 @@ This repository serves as a complete audit trail of my learning journey, showcas
 
 ---
 
-### collections-practice (Current Branch)
+### collections-practice 
 
 #### Focus Areas:
 - Java Generics and type safety
 - Collections Framework (ArrayList, LinkedList, HashSet, TreeSet, HashMap)
+- Exception Handling (Checked, Unchecked, Custom Exceptions)
+- Java Streams and Lambda Expressions
+
+---
+
+### IO-Programming 
+
+#### Focus Areas:
+- CSV Data Handling (reading, writing, parsing)
+- JSON Data handling (parsing, creating, file operations)
+- File I/O operations and resource management
+- Regex patterns and JUnit testing basics
+
+---
+
+### Java-8-Features 
+
+#### Focus Areas:
+- Lambda Expressions and functional programming
+- Stream API and functional interfaces
+- Advanced problem-solving with Java 8 features
+- Real-world scenario implementations
 
 ---
 
@@ -288,5 +307,19 @@ This repository serves as a complete audit trail of my learning journey, showcas
 - **23-Jan-2026 (Friday):** Studied Java I/O Streams: File Streams, Object Streams, ByteArray Streams, Buffered Streams, and Reader/Writer classes. Practiced resource management with try-with-resources and exception handling.
 - **27-Jan-2026 (Tuesday):** Studied Exception Handling in Java: Checked vs Unchecked Exceptions, Custom Exceptions, try-catch blocks, try-catch-finally blocks, try-with-resources statement, throws clause, throw statement, and creating custom exceptions by extending Exception class with custom constructors.
 - **28-Jan-2026 (Wednesday):** Learned basics of Java Streams and Lambda expressions. Solved string manipulation problem involving ASCII value filtering, character removal based on even ASCII codes, string reversal, and case conversion at even indices.
+
+---
+
+### Week 5: IO Programming
+
+- **29-Jan-2026 (Thursday):** Started IO Programming with CSV Data Handling. Learned reading and writing CSV files, parsing CSV data, and implementing file I/O operations. Solved FutureLogistics billing automation system for goods transport records and Flip Key Problem involving ASCII value filtering and string manipulation.
+- **30-Jan-2026 (Friday):** Studied JSON Data handling in Java. Learned JSON parsing, creating JSON objects, reading and writing JSON files using libraries. Practiced Regex patterns and JUnit testing basics. Implemented Lexical Twist puzzle for word processing and transformations based on specific conditions.
+
+---
+
+### Week 6: Java 8 & its Features
+
+- **02-Feb-2026 (Monday):** Studied Lambda Expressions and functional programming concepts. Implemented Factory Robot Hazard Analyzer system with custom exception handling to evaluate hazard risk scores based on arm precision, worker density, and machinery state. Developed AeroVigil airline management system for flight validation, passenger capacity checks, and fuel level verification.
+- **03-Feb-2026 (Tuesday):** Continued with Lambda Expressions and Stream API. Built StreamBuzz digital content platform to track creator engagement over 4 weeks using CreatorStats class. Practiced functional interfaces and lambda expressions with real-world scenario-based problems.
 
 ---
