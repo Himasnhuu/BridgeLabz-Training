@@ -1,99 +1,215 @@
 package scenariobased;
 
+import java.util.*;
+
+// UC11 → Interface
+interface EmpWageBuilder {
+    void computeWage();
+}
+
+// UC7 → Class Refactor
+class CompanyEmpWage implements EmpWageBuilder {
+
+    String companyName;
+    int wagePerHour;
+    int maxDays;
+    int maxHours;
+    int totalWage;
+
+    // UC13 → Store daily wages
+    ArrayList<Integer> dailyWages = new ArrayList<>();
+
+    CompanyEmpWage(String companyName,
+                   int wagePerHour,
+                   int maxDays,
+                   int maxHours) {
+
+        this.companyName = companyName;
+        this.wagePerHour = wagePerHour;
+        this.maxDays = maxDays;
+        this.maxHours = maxHours;
+    }
+
+    // UC8 + UC10 → Compute wage
+    public void computeWage() {
+
+        int totalHours = 0;
+        int totalDays = 0;
+
+        while (totalDays < maxDays &&
+               totalHours < maxHours) {
+
+            int empHours = getWorkingHours();
+
+            totalHours += empHours;
+            totalDays++;
+
+            int dailyWage = empHours * wagePerHour;
+            dailyWages.add(dailyWage);
+        }
+
+        totalWage = totalHours * wagePerHour;
+    }
+
+    // UC3 + UC4
+    int getWorkingHours() {
+
+        int empType =
+            (int)(Math.random() * 3);
+
+        switch (empType) {
+
+            case 1: return 8; // Full time
+            case 2: return 4; // Part time
+            default: return 0; // Absent
+        }
+    }
+
+    // UC9
+    int getTotalWage() {
+        return totalWage;
+    }
+
+    void printReport() {
+
+        System.out.println("\nCompany : " + companyName);
+        System.out.println("Daily Wages : " + dailyWages);
+        System.out.println("Total Wage : " + totalWage);
+    }
+}
+
+// MAIN CLASS
 public class EmployeeWageComputation {
+
+    static ArrayList<CompanyEmpWage> companyList =
+        new ArrayList<>();
+
     public static void main(String[] args) {
 
-        // display welcome message
-        System.out.println("WELCOME TO EMPLOYEE WAGE COMPUTATION PROGRAM.\n");
+        System.out.println(
+            "WELCOME TO EMPLOYEE WAGE COMPUTATION PROGRAM\n");
 
-        System.out.println("-------------------------------------------------------------------");
+        // UC1
+        System.out.println("UC1 → Attendance Check");
+        System.out.println(
+            "Employee is " +
+            (isPresent() ? "PRESENT" : "ABSENT"));
 
-        // UC2: calculate and display daily wage
-        Double d = useCase2();
-        System.out.println("Daily Employee wage is " + d);
-        System.out.println("------------------------------------------------------------------");
+        // UC2
+        System.out.println("\nUC2 → Daily Wage");
+        System.out.println(
+            "Daily Wage : " + (20 * 8));
 
-        // UC3 & UC4: determine employment type and calculate wage using switch
-        String s2 = useCase3() == true ? "FULL TIME" : "PART TIME";
-        double d1 = s2.equals("FULL TIME") ? useCase4(true) : useCase4(false);
-        System.out.println("Employee is " + s2 + " and its daily wage is " + d1);
-        System.out.println("-------------------------------------------------------------------");
+        // UC3
+        System.out.println("\nUC3 → Part Time Added");
+        int hoursUC3 =
+            (int)(Math.random() * 2) == 1 ? 8 : 4;
+        System.out.println(
+            "Working Hours : " + hoursUC3);
 
-        // UC6: calculate wages till condition of 20 days or 100 hours is met
-        int totalDays = 0;
+        // UC4
+        System.out.println("\nUC4 → Switch Case Wage");
+        System.out.println(
+            "Wage : " + (hoursUC3 * 20));
+
+        // UC5
+        System.out.println("\nUC5 → Monthly Wage");
+        System.out.println(
+            "Monthly Wage : " +
+            calculateMonthlyWage(100));
+
+        // UC6
+        System.out.println(
+            "\nUC6 → Wages till condition");
+
         int totalHours = 0;
-        int i = 1;
-        while(totalDays < 20 && totalHours <= 100) {
-            // UC1: check employee attendance
-            String isPresent = useCase1() == true ? "PRESENT" : "ABSENT";
-            System.out.print("Day " + i + " Employee is " + isPresent);
+        int totalDays = 0;
 
-            if(isPresent.equals("PRESENT")) {
-                totalHours += useCase6();
-                totalDays += 1;
-                System.out.print(", Working hours = " + 8);
-                System.out.println();
-            } else {
-                totalDays += 1;
-                System.out.println();
+        while (totalDays < 20 &&
+               totalHours < 100) {
+
+            int hrs = getHours();
+            totalHours += hrs;
+            totalDays++;
+        }
+
+        System.out.println(
+            "Total Hours : " + totalHours);
+        System.out.println(
+            "Total Wage : " +
+            (totalHours * 20));
+
+        // UC7,8,9,10
+        System.out.println(
+            "\nUC7–UC10 → Class & Multiple Companies");
+
+        addCompany("TCS", 20, 20, 100);
+        addCompany("Infosys", 25, 22, 120);
+
+        for (CompanyEmpWage c : companyList) {
+            c.computeWage();
+        }
+
+        // UC13
+        for (CompanyEmpWage c : companyList) {
+            c.printReport();
+        }
+
+        // UC14
+        System.out.println(
+            "\nUC14 → Query Wage by Company");
+
+        System.out.println(
+            "Total Wage for TCS : " +
+            getTotalWageByCompany("TCS"));
+    }
+
+    // UC1
+    static boolean isPresent() {
+        return (int)(Math.random() * 2) == 1;
+    }
+
+    // UC5
+    static int calculateMonthlyWage(int hrs) {
+        return hrs * 20;
+    }
+
+    // UC6 helper
+    static int getHours() {
+
+        int empType =
+            (int)(Math.random() * 3);
+
+        switch (empType) {
+            case 1: return 8;
+            case 2: return 4;
+            default: return 0;
+        }
+    }
+
+    // UC10
+    static void addCompany(String name,
+                           int wagePerHour,
+                           int days,
+                           int hours) {
+
+        companyList.add(
+            new CompanyEmpWage(
+                name,
+                wagePerHour,
+                days,
+                hours));
+    }
+
+    // UC14
+    static int getTotalWageByCompany(String name) {
+
+        for (CompanyEmpWage c : companyList) {
+
+            if (c.companyName.equals(name)) {
+                return c.getTotalWage();
             }
-
-            i++;
-
         }
-        System.out.println("-------------------------------------------------------------------");
-        
-        // UC5: calculate monthly wage based on total hours worked
-        Double mWage = useCase5(totalHours);
-        System.out.print("\nTotal Working hours of the Employee : " + totalHours);
-        System.out.print("\nMonthly Wage of the Employee : " + mWage);
-        System.out.println("\n\n-------------------------------------------------------------------");
-
+        return 0;
     }
-
-    // UC1: check employee attendance randomly
-    static boolean useCase1() {
-        return ((int)(Math.random() * 2) == 0) ? false : true;
-    }
-
-    // UC2: calculate daily wage (wage per hour * full day hours)
-    static double useCase2() {
-        double dailyWage = 20 * 8;
-        return dailyWage;
-    }
-
-    // UC3: randomly determine full-time or part-time status
-    static boolean useCase3() {
-        return (int)(Math.random() * 2) == 0 ? false : true;
-    }
-
-    // UC4: calculate wage using switch case based on employment type
-    static double useCase4(boolean x) {
-
-        // convert boolean to integer for switch case
-        int z = x == true ? 1 : 0;
-
-        switch (z) {
-
-            case 1:
-                return 20 * 8; // full time wage
-
-            case 0:
-                return 20 * 8; // part time wage
-
-            default:
-                return 0;
-        }
-    }
-
-    // UC5: calculate monthly wage based on total hours worked
-    static double useCase5(int h) {
-        return 20 * h;
-    }
-
-    // UC6: return working hours per day
-    static int useCase6() {
-        return 8;
-    }
-
 }
