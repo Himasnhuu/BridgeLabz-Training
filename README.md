@@ -81,6 +81,22 @@ BridgeLabz-Training
 │   │   ├── csv-data-handling
 │   │   └── json-data
 │
+├── Branch: Java-8-features
+│   ├── gcr-codebase
+│   │   ├── lambda-expressions
+│   │   ├── functional-interfaces
+│   │   ├── stream-api
+│   │   └── collectors
+│   └── scenario-based
+│
+├── Branch: design-patterns
+│   └── gcr-codebase
+│       └── librarymanagement
+│
+├── Branch: multi-threading
+│   ├── gcr-codebase
+│   └── scenario-based
+│
 └── Branch: reviews
 
 
@@ -178,14 +194,15 @@ BridgeLabz-Training
 ## Progress Tracking
 
 This repository serves as a complete audit trail of my learning journey, showcasing:
-- Daily commitment to coding practice across 4+ weeks
-- Progressive skill development from Core Java fundamentals to advanced DSA and Collections
-- Real-world problem-solving with 50+ scenario-based applications
+- Daily commitment to coding practice across 8+ weeks
+- Progressive skill development from Core Java fundamentals to Multi-threading
+- Real-world problem-solving with 70+ scenario-based applications
 - Clean, documented, and maintainable code following industry best practices
 - Consistent use of modular, testable Java methods
-- Multiple branches tracking different learning phases (core-java, OOPs, DSA, collections)
-- Weekly technical reviews and mentor viva sessions
-- Integration of concepts through practical implementations
+- Multiple branches tracking different learning phases (core-java, OOPs, DSA, collections, IO-programming, Java-8-features, design-patterns, multi-threading)
+- Weekly technical reviews, mock assessments, and mentor viva sessions
+- Integration of concepts through complex system implementations
+- Mastery of Java 8 features, Design Patterns, and Concurrent Programming
 
 ---
 
@@ -247,13 +264,38 @@ This repository serves as a complete audit trail of my learning journey, showcas
 
 ---
 
-### Java-8-Features 
+### Java-8-Features
 
 #### Focus Areas:
 - Lambda Expressions and functional programming
-- Stream API and functional interfaces
-- Advanced problem-solving with Java 8 features
-- Real-world scenario implementations
+- Functional Interfaces (Predicate, Function, Consumer, Supplier)
+- Stream API (filter, map, flatMap, reduce, collect operations)
+- Collectors (groupingBy, partitioningBy, toList, toSet, toMap)
+- Method references and constructor references
+- Optional class for null-safety
+- Real-world scenario implementations with Java 8 features
+
+---
+
+### design-patterns
+
+#### Focus Areas:
+- Creational Patterns (Singleton, Factory, Abstract Factory, Builder)
+- Structural Patterns (Adapter, Decorator, Facade, Proxy)
+- Behavioral Patterns (Observer, Strategy, Command, Template Method)
+- Design pattern implementation in real-world scenarios
+
+---
+
+### multi-threading (Current Branch)
+
+#### Focus Areas:
+- Thread creation (Thread class and Runnable interface)
+- Thread lifecycle and states
+- Thread synchronization (synchronized methods and blocks)
+- Inter-thread communication (wait, notify, notifyAll)
+- Thread safety and concurrency issues
+- Executor framework and thread pools
 
 ---
 
@@ -321,5 +363,27 @@ This repository serves as a complete audit trail of my learning journey, showcas
 
 - **02-Feb-2026 (Monday):** Studied Lambda Expressions and functional programming concepts. Implemented Factory Robot Hazard Analyzer system with custom exception handling to evaluate hazard risk scores based on arm precision, worker density, and machinery state. Developed AeroVigil airline management system for flight validation, passenger capacity checks, and fuel level verification.
 - **03-Feb-2026 (Tuesday):** Continued with Lambda Expressions and Stream API. Built StreamBuzz digital content platform to track creator engagement over 4 weeks using CreatorStats class. Practiced functional interfaces and lambda expressions with real-world scenario-based problems.
+- **04-Feb-2026 (Wednesday):** Studied Functional Interfaces in depth. Practiced predefined functional interfaces (Predicate, Function, Consumer, Supplier) and created custom functional interfaces. Worked on Stream API operations including filtering, mapping, and reducing.
+- **05-Feb-2026 (Thursday):** Deep dive into Stream API operations. Practiced intermediate operations (filter, map, flatMap, distinct, sorted) and terminal operations (forEach, collect, reduce, count). Built data processing pipelines using streams.
+- **06-Feb-2026 (Friday):** Studied Collectors class and various collection operations. Practiced groupingBy, partitioningBy, toList, toSet, toMap collectors. Implemented complex data aggregation and transformation scenarios.
+- **07-Feb-2026 (Saturday):** Completed Stream API assignment with real-world problems. Submitted Lambda Expressions and Stream API implementations.
+- **09-Feb-2026 (Monday):** Finalized and submitted Functional Interfaces and Collectors assignments. Reviewed Java 8 features and practiced comprehensive scenario-based problems integrating all concepts.
+
+---
+
+### Week 7: Solution Designing (Design Patterns)
+
+- **10-Feb-2026 (Tuesday):** Mock assessment with 3 coding problems (scenario-based and DSA-based). Started Design Patterns - studied Creational patterns including Singleton, Factory, and Builder patterns.
+- **11-Feb-2026 (Wednesday):** Continued with Creational Design Patterns. Implemented Factory Pattern and Abstract Factory Pattern with real-world examples. Studied Builder Pattern for complex object construction.
+- **12-Feb-2026 (Thursday):** Studied Structural Design Patterns including Adapter, Decorator, and Facade patterns. Practiced implementing design patterns in scenario-based problems.
+- **13-Feb-2026 (Friday):** Studied Behavioral Design Patterns including Observer, Strategy, and Command patterns. Implemented practical examples demonstrating pattern usage.
+- **14-Feb-2026 (Saturday):** Completed and submitted Design Patterns assignment. Reviewed all creational, structural, and behavioral patterns with implementations.
+
+---
+
+### Week 8: Multi-threading
+
+- **16-Feb-2026 (Monday):** Started Multi-threading in Java. Studied thread lifecycle, creating threads using Thread class and Runnable interface. Learned thread states and basic synchronization concepts. Implemented Employee Wage Computation using four-tier architecture with JUnit testing and Regex validation.
+- **17-Feb-2026 (Tuesday):** Continued Multi-threading concepts. Studied thread synchronization, synchronized methods and blocks, inter-thread communication, wait/notify mechanisms, and thread safety. Completed Address Book assignment with four-tier architecture, JUnit tests, and Regex pattern validation for all use cases.
 
 ---
