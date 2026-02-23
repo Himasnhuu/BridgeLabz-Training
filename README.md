@@ -97,6 +97,10 @@ BridgeLabz-Training
 │   ├── gcr-codebase
 │   └── scenario-based
 │
+├── Branch: jdbc-dbms-practice
+│   └── gcr-codebase
+│       └── jdbc
+│
 └── Branch: reviews
 
 
@@ -385,5 +389,15 @@ This repository serves as a complete audit trail of my learning journey, showcas
 
 - **16-Feb-2026 (Monday):** Started Multi-threading in Java. Studied thread lifecycle, creating threads using Thread class and Runnable interface. Learned thread states and basic synchronization concepts. Implemented Employee Wage Computation using four-tier architecture with JUnit testing and Regex validation.
 - **17-Feb-2026 (Tuesday):** Continued Multi-threading concepts. Studied thread synchronization, synchronized methods and blocks, inter-thread communication, wait/notify mechanisms, and thread safety. Completed Address Book assignment with four-tier architecture, JUnit tests, and Regex pattern validation for all use cases.
+
+---
+
+### Week 9: JDBC & DBMS
+
+- **18-Feb-2026 (Wednesday):** Started JDBC (Java Database Connectivity) fundamentals. Studied JDBC architecture, DriverManager, Connection, Statement, PreparedStatement, and ResultSet interfaces. Learned database connection setup and basic CRUD operations.
+- **19-Feb-2026 (Thursday):** Continued with JDBC concepts. Practiced establishing database connections, executing SQL queries, handling ResultSet data, and implementing PreparedStatement for parameterized queries. Studied SQL injection prevention and best practices.
+- **20-Feb-2026 (Friday):** Prepared for M1 exam. Practiced Stream API questions on Map, List, and Arrays. Solved various stream operations including filtering, mapping, collecting, and reducing. Practiced DSA-based problems on LeetCode.
+- **21-Feb-2026 (Saturday):** Continued M1 exam preparation. Focused on Stream API complex scenarios with groupingBy, partitioningBy, and advanced collectors. Solved multiple DSA problems on LeetCode covering arrays, strings, and collections.
+- **23-Feb-2026 (Monday):** Practiced comprehensive Stream API problems on different data structures. Solved LeetCode DSA questions on linked lists, stacks, and hash maps. Reviewed all core Java concepts and collections framework.
 
 ---
